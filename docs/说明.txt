@@ -1,0 +1,13 @@
+项目描述：Springboot开发的用户管理系统SpringbootCRM
+运行环境：jdk8+tomcat8+mysql+eclipse+maven
+项目技术：spring+springboot+mybatis+shiro+thymeleaf+adminlte+bootstrap+jquery
+
+
+启动方式：
+mvn install
+运行Application类的main函数
+or
+java -jar SpringbootCRM-0.0.1-SNAPSHOT.jar
+
+项目访问路径：http://localhost:8080/
+账号密码：admin/123456
