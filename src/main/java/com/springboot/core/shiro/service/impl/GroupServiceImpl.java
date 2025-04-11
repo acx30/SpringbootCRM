@@ -1,11 +1,11 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.springboot.modules.system.entity.Group;
 import com.springboot.modules.system.mapper.GroupMapper;
 import com.springboot.modules.system.query.GroupQuery;
-import com.springboot.modules.system.service.GroupService;
+import com.springboot.core.shiro.service.GroupService;
 import com.springboot.utils.PageResultSet;
 
 import org.springframework.beans.factory.annotation.Autowired;

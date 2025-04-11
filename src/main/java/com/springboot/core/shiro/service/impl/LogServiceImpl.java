@@ -1,11 +1,11 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.springboot.modules.system.entity.Log;
 import com.springboot.modules.system.mapper.LogMapper;
 import com.springboot.modules.system.query.LogQuery;
-import com.springboot.modules.system.service.LogService;
+import com.springboot.core.shiro.service.LogService;
 import com.springboot.utils.PageResultSet;
 
 import org.springframework.beans.factory.annotation.Autowired;

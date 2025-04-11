@@ -11,10 +11,10 @@ import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.dto.UserDto;
 import com.springboot.modules.system.entity.User;
 import com.springboot.modules.system.query.UserQuery;
-import com.springboot.modules.system.service.GroupService;
-import com.springboot.modules.system.service.OrganizationService;
-import com.springboot.modules.system.service.RoleService;
-import com.springboot.modules.system.service.UserService;
+import com.springboot.core.shiro.service.GroupService;
+import com.springboot.core.shiro.service.OrganizationService;
+import com.springboot.core.shiro.service.RoleService;
+import com.springboot.core.shiro.service.UserService;
 import com.springboot.utils.BaseController;
 import com.springboot.utils.PageResultSet;
 import com.springboot.utils.Result;
@@ -24,13 +24,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 import java.util.Arrays;
 
-/**
- * 
- * @Description： 用户管理
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:30:44]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
 @Controller
 @RequestMapping("/user")
 public class UserController extends BaseController {

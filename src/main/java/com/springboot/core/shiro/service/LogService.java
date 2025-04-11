@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service;
+package com.springboot.core.shiro.service;
 
 import com.springboot.modules.system.entity.Log;
 import com.springboot.modules.system.query.LogQuery;

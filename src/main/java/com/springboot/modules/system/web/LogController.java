@@ -10,17 +10,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.springboot.modules.system.entity.Log;
 import com.springboot.modules.system.query.LogQuery;
-import com.springboot.modules.system.service.LogService;
+import com.springboot.core.shiro.service.LogService;
 import com.springboot.utils.BaseController;
 import com.springboot.utils.PageResultSet;
 
-/**
- * 
- * @Description： 日志
- * @author [ Wenfeng.Huang ] on [2018年8月31日上午10:39:37]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 @RequestMapping("/log")
 public class LogController extends BaseController{

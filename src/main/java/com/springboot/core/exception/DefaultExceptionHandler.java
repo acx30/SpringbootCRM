@@ -29,11 +29,7 @@ public class DefaultExceptionHandler {
         return Result.failure(e, ResultCodeEnum.INTERNAL_SERVER_ERROR);
     }
 
-    /**
-     * 没有权限 异常
-     * <p/>
-     * 后续根据不同的需求定制即可
-     *//*
+/*
     @ExceptionHandler({UnauthorizedException.class})
     @ResponseStatus(HttpStatus.UNAUTHORIZED)
     public ModelAndView handleUnauthenticatedException(NativeWebRequest request, UnauthorizedException e) {

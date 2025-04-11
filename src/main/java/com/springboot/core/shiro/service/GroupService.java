@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service;
+package com.springboot.core.shiro.service;
 
 import java.util.List;
 

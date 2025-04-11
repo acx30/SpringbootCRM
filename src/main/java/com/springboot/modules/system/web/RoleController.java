@@ -10,8 +10,8 @@ import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.dto.RoleDto;
 import com.springboot.modules.system.entity.Role;
 import com.springboot.modules.system.query.RoleQuery;
-import com.springboot.modules.system.service.ResourceService;
-import com.springboot.modules.system.service.RoleService;
+import com.springboot.core.shiro.service.ResourceService;
+import com.springboot.core.shiro.service.RoleService;
 import com.springboot.utils.BaseController;
 import com.springboot.utils.PageResultSet;
 import com.springboot.utils.Result;
@@ -19,13 +19,7 @@ import com.springboot.utils.Result;
 import javax.validation.Valid;
 import java.util.Arrays;
 
-/**
- * 
- * @Description： 角色管理
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:30:52]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 @RequestMapping("/role")
 public class RoleController extends BaseController {

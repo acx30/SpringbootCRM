@@ -1,7 +1,8 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.springboot.core.exception.CrmException;
+import com.springboot.core.shiro.service.*;
 import com.springboot.modules.system.dto.UserDto;
 import com.springboot.modules.system.entity.Group;
 import com.springboot.modules.system.entity.Organization;
@@ -9,7 +10,7 @@ import com.springboot.modules.system.entity.Role;
 import com.springboot.modules.system.entity.User;
 import com.springboot.modules.system.mapper.UserMapper;
 import com.springboot.modules.system.query.UserQuery;
-import com.springboot.modules.system.service.*;
+import com.springboot.modules.system.*;
 import com.springboot.utils.PageResultSet;
 import com.springboot.utils.ResultCodeEnum;
 
@@ -175,8 +176,14 @@ public class UserServiceImpl implements UserService {
     public User findByUsername(String username) {
         User user = new User();
         user.setUsername(username);
-        userMapper.selectOne(user);
-        return userMapper.selectOne(user);
+        List<User> users = userMapper.select(user);
+        if(users == null) {
+        	return null;
+        }
+        if(users.size() < 1) {
+        	return null;
+        }
+        return users.get(0);
     }
 
     @Override

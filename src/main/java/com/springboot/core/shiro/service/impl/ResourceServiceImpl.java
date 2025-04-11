@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import org.apache.shiro.authz.permission.WildcardPermission;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,7 @@ import com.springboot.modules.system.dto.ResourceDto;
 import com.springboot.modules.system.entity.Resource;
 import com.springboot.modules.system.enums.ResourceType;
 import com.springboot.modules.system.mapper.ResourceMapper;
-import com.springboot.modules.system.service.ResourceService;
+import com.springboot.core.shiro.service.ResourceService;
 
 import tk.mybatis.mapper.weekend.Weekend;
 

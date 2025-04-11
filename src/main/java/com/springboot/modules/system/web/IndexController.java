@@ -7,21 +7,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.springboot.modules.system.dto.ResourceDto;
-import com.springboot.modules.system.service.ResourceService;
-import com.springboot.modules.system.service.UserService;
+import com.springboot.core.shiro.service.ResourceService;
+import com.springboot.core.shiro.service.UserService;
 import com.springboot.utils.Constants;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-/**
- * 
- * @Description： 首页
- * @author [ Wenfeng.Huang ] on [2018年8月31日上午10:39:17]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 public class IndexController {
 

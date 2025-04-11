@@ -9,20 +9,14 @@ import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.entity.Group;
 import com.springboot.modules.system.enums.GroupType;
 import com.springboot.modules.system.query.GroupQuery;
-import com.springboot.modules.system.service.GroupService;
+import com.springboot.core.shiro.service.GroupService;
 import com.springboot.utils.PageResultSet;
 import com.springboot.utils.Result;
 
 import javax.validation.Valid;
 import java.util.Arrays;
 
-/**
- * 
- * @Description： 功能描述
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:30:21]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 @RequestMapping("/group")
 public class GroupController {

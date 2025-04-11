@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.entity.Resource;
 import com.springboot.modules.system.enums.ResourceType;
-import com.springboot.modules.system.service.ResourceService;
+import com.springboot.core.shiro.service.ResourceService;
 import com.springboot.utils.BaseController;
 import com.springboot.utils.Result;
 
@@ -17,13 +17,7 @@ import tk.mybatis.mapper.weekend.Weekend;
 
 import javax.validation.Valid;
 
-/**
- * 
- * @Description： 资源管理
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:30:57]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 @RequestMapping("/resource")
 public class ResourceController extends BaseController{

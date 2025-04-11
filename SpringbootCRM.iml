@@ -144,5 +144,8 @@
     <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:5.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:2.0.0.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.scribejava:scribejava-apis:5.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.github.scribejava:scribejava-core:5.5.0" level="project" />
   </component>
 </module>

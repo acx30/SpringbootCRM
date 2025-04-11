@@ -3,21 +3,18 @@ package com.springboot.modules.system.web;
 import org.apache.shiro.authc.ExcessiveAttemptsException;
 import org.apache.shiro.authc.IncorrectCredentialsException;
 import org.apache.shiro.authc.UnknownAccountException;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.springboot.utils.BaseController;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * 
- * @Description： 登录
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:31:13]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 public class LoginController extends BaseController {
 
@@ -42,6 +39,7 @@ public class LoginController extends BaseController {
     @RequestMapping("/main")
     public String main() throws Exception {
         logger.info("begin to main");
-        return "/system/main";
+        return "/base/main";
     }
 }
+

@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service;
+package com.springboot.core.shiro.service;
 
 import org.apache.shiro.crypto.RandomNumberGenerator;
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.dto.TreeDto;
 import com.springboot.modules.system.entity.Organization;
-import com.springboot.modules.system.service.OrganizationService;
+import com.springboot.core.shiro.service.OrganizationService;
 import com.springboot.utils.BaseController;
 import com.springboot.utils.Result;
 
@@ -17,13 +17,7 @@ import tk.mybatis.mapper.weekend.Weekend;
 import javax.validation.Valid;
 import java.util.List;
 
-/**
- * 
- * @Description： 功能描述
- * @author [ Wenfeng.Huang ] on [2018年8月24日下午5:31:08]
- * @Modified By： [修改人] on [修改日期] for [修改说明]
- *
- */
+
 @Controller
 @RequestMapping("/organization")
 public class OrganizationController extends BaseController{

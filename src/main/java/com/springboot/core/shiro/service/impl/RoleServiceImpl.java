@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.springboot.modules.system.dto.RoleDto;
@@ -6,8 +6,8 @@ import com.springboot.modules.system.entity.Resource;
 import com.springboot.modules.system.entity.Role;
 import com.springboot.modules.system.mapper.RoleMapper;
 import com.springboot.modules.system.query.RoleQuery;
-import com.springboot.modules.system.service.ResourceService;
-import com.springboot.modules.system.service.RoleService;
+import com.springboot.core.shiro.service.ResourceService;
+import com.springboot.core.shiro.service.RoleService;
 import com.springboot.utils.PageResultSet;
 
 import org.springframework.beans.factory.annotation.Autowired;

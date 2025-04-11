@@ -1,4 +1,4 @@
-package com.springboot.modules.system.service.impl;
+package com.springboot.core.shiro.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -8,7 +8,7 @@ import org.springframework.util.StringUtils;
 import com.springboot.modules.system.dto.TreeDto;
 import com.springboot.modules.system.entity.Organization;
 import com.springboot.modules.system.mapper.OrganizationMapper;
-import com.springboot.modules.system.service.OrganizationService;
+import com.springboot.core.shiro.service.OrganizationService;
 import com.springboot.utils.Constants;
 
 import tk.mybatis.mapper.weekend.Weekend;

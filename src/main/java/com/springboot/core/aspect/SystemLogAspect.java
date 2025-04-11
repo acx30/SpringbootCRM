@@ -11,7 +11,7 @@ import org.springframework.util.StringUtils;
 
 import com.springboot.core.annotation.SystemLog;
 import com.springboot.modules.system.entity.Log;
-import com.springboot.modules.system.service.LogService;
+import com.springboot.core.shiro.service.LogService;
 import com.springboot.utils.JsonUtil;
 import com.springboot.utils.PageResultSet;
 import com.springboot.utils.Result;
